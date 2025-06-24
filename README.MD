@@ -15,7 +15,7 @@ The game features a user interface built with Java Swing, handles tile events, g
 
 ## 🎥 Demo Video
 
-[Watch the demo on YouTube](https://youtu.be/fuPFk4dbub4)
+[![Watch the demo on YouTube](screenshot/youtube.png)](https://youtu.be/fuPFk4dbub4)
 
 ---
 
