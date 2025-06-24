@@ -9,7 +9,6 @@ The game features a user interface built with Java Swing, handles tile events, g
 
 ![App Screenshot](screenshot/shot.png)
 
-> Place your image in a folder called `images/` and commit it with the README.
 
 ---
 
