@@ -1,27 +1,38 @@
-# MineSweeper Project 
-This repository contains a demo of a Minesweeper game built  with Java GUI and Java backend. The features include tracking player score and an interactive minefield :
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+# 🎮 MineSweepers
 
-## Sample Section
+This is a simple Minesweeper-style Java GUI game that tracks scores and uses a grid layout.  
+The game features a user interface built with Java Swing, handles tile events, game states.
 
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+---
 
-## This heading is not unique in the file
+## 📸 Screenshot
 
-TEXT 1
+![App Screenshot](screenshot/shot.png)
 
-## Demo 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/fuPFk4dbub4)
 
-TEXT 2
 
-# Links to the example headings above
+---
 
-Link to the sample section: [Link Text](#sample-section).
+## 🎥 Demo Video
 
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+[Watch the demo on YouTube(screenshot/youtube.png)](https://youtu.be/fuPFk4dbub4)
 
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
+---
 
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+## ✨ Features
+
+- 🔘 Dynamic buttons with colored and bold text
+- 🧠 Minesweeper-style logic with adjacent bomb count
+- 👨‍💻 Built with Java Swing
+
+---
+### 🔧 Requirements
+
+- Java 8+
+- Any IDE or just use terminal
+
+### 🖥️ Run with Terminal
+
+```bash
+javac JavaGui.java
+java JavaGui
