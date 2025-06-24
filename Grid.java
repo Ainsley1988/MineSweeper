@@ -1,3 +1,4 @@
+//Youtube link : https://youtu.be/fuPFk4dbub4
 import java.util.Random;
 
 
@@ -221,19 +222,18 @@ int count=0;
              {-1,-1},//left up adjacent
              {1,-1},//left down adjacent
              {-1,1},//right up adjacent
-             {1,1}//right down adjacent
+             {1,1},//right down adjacent
+             {0,0}
 
 
         };
 
-        if(this.bombGrid[row][col]){
-            count++;
-        }
+       
         for(int i=0;i< directions.length;i++){
             int [] direction =directions[i];
             int newRow= row + direction[0];
             int newCol = col + direction[1];
-if(newRow >=0 && newRow < this.bombGrid.length && newCol >= 0 && newCol< this.bombGrid[0].length ){
+if(newRow >=0 && newRow < this.bombGrid.length && newCol >= 0 && newCol< this.bombGrid[0].length ){// insure we are not counting outside the bounds of the grid like edge cases
     
     if(this.bombGrid[newRow][newCol]){
         count++;
